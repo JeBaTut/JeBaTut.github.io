@@ -1,10 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+
+<head>
+    <style>
+        #downloadbox {
+            background-color: lightgrey;
+            width: 300px;
+            border: 15px solid green;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        #infobox {
+            background-color: lightgrey;
+            width: 300px;
+            border: 15px solid green;
+            padding: 50px;
+            margin: 20px;
+            float: right;
+        }
+
+        body {
+            background-color: rgb(219, 219, 216);
+        }
+
+        h1 {
+            color: green;
+            text-align: left;
+            font-size: 30px;
+        }
+
+        p {
+            font-family: verdana;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+
 <body>
-<h1>Erste Homepage von Jens Bayer</h1>
-<p>Ich versuche mich hier mal an html =)</p>
+
+    <iframe width="800" height="500" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+
+    <h1>Erste Homepage von Jens Bayer</h1>
+    <p>Ich versuche mich hier mal an html =)</p>
+
+    <h1>Zeitplan</h1>
+
+    <p>Prokrastination ist dein größtes Hobby?</p>
+    <p>Deine Fenster sind geputzt, deine Küche ist sauber und deine Pfandflaschensammlung wurde endlich weggebracht?</p>
+    <p>Aber gelernt hast du noch nicht?</p>
+    <p>Flo zeigt dir in diesem Video, wie du deinen Tag gut organisieren kannst!</p>
+
+    <p>Zeitplan kann dir dabei helfen.</p>
+    <p>Um einen guten Zeitplan zu erstellen solltest du:</p>
+    <p>1. feste Termine eintragen</p>
+    <p>2. alle Aufgaben sammeln</p>
+    <p>3. Aufgaben priorisieren</p>
+    <p>4. Aufgaben in Zeitplan eintragen</p>
+
+    <p>Du willst jetzt deinen eigenen Zeitplan machen?</p>
+    <p>Vorlagen zum runterladen:</p>
+
+    <div id="infobox">
+        INFO Box
+    </div>
+
+    <div id="downloadbox">
+        <p>Downloads</p>
+        <a
+            href="https://www.hs-furtwangen.de/fileadmin/user_upload/ze_mar/Kalender/Kalender_SoSe2021_WiSe21-22.pdf">Semesterplan</a>
+
+    </div>
 
 
+    <h2>Kommentare</h2>
+
+    <form action="/html/tags/html_form_tag_action.cfm" method="post">
+        <div>
+            <textarea name="comments" id="comments" style="font-family:sans-serif;font-size:1.2em;">
+        Sag uns deine Meinung!
+        </textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <h2>Du hast weitere Fragen?</h2>
 
 </body>
+
 </html>
